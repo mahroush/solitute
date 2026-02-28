@@ -21,7 +21,7 @@ class Stack {
             mPile.pop();
         }
     }
-    void displayStack(Stack mPile) {
+    static void displayStack(Stack mPile) {
         Stack temp = mPile;
         while(!temp.isEmpty()) {
             Card thisCard = temp.pop();
