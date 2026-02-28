@@ -51,7 +51,7 @@ class Stack {
         }
         return top.thisCard;
     }
-
+    //check stack for contents
     boolean isEmpty() {
         return top == null;
     }
